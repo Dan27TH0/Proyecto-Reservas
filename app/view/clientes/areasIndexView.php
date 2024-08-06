@@ -12,7 +12,6 @@
         <nav class="navbar">
             <ul>
                 <li><a href="http://localhost/proyecto-reservas/?C=usuariosController&M=indexClient">Inicio</a></li>
-                <li><a href="http://localhost/proyecto-reservas/?C=areasController&M=indexClient">Areas Deportivas</a></li>
                 <li><a href="http://localhost/proyecto-reservas/?C=clasesController&M=indexClient">Clases Deportivas</a></li>
                 <li><a href="http://localhost/proyecto-reservas/?C=eventosController&M=indexClient">Eventos Deportivos</a></li>
                 <li><a href="http://localhost/proyecto-reservas?C=usuariosController&M=viewProfileClient">Perfil</a>
@@ -21,7 +20,7 @@
         </nav>
     </header>
     <section>
-        <?php include_once($vista); ?>
+        <?php include_once($vista);?>
     </section>
 </body>
 </html>

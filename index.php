@@ -5,7 +5,7 @@
     if (is_file($ruta)){
         require_once($ruta);
         $objeto = new $control();
-        $metodo = isset ($_GET['M']) ? $_GET['M']:'';
+        $metodo = isset($_GET['M']) ? $_GET['M']:'';
         
         if(method_exists($objeto,$metodo)){
             $objeto -> $metodo();
